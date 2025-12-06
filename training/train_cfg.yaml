@@ -1,0 +1,11 @@
+min_pointclouds: 20
+max_pointclouds: 150
+min_seq_length: 7
+max_seq_length: 7
+input_seq_length: 30
+
+epoch: 1200
+batch_size: 32
+learning_rate: 0.0001
+stamp_every: 10
+checkpoint_path: ./weight
